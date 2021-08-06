@@ -2,8 +2,6 @@
   ## Commandes Principales
    ### Installer Python sur le controler node 
       sudo apt install python3-pip
-   ### Installer Python sur le controler node 
-      sudo apt install python3-pip
   ### Installation via les distributions Debian
       sudo apt install ansible
   ### Vérifier la version d’Ansible
