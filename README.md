@@ -1,3 +1,15 @@
-# Travail de Fin d'Etudes - Conception, gestion et sécurisation d’une infrastructure virtualisée
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png" width="500" height="500">
-##Commandes Principales
+# Conception, gestion et sécurisation d’une infrastructure virtualisée au moyen d'Ansible
+  ## Commandes Principales
+   ### Installer Python sur le controler node 
+      sudo apt install python3-pip
+   ### Installer Python sur le controler node 
+      sudo apt install python3-pip
+  ### Installation via les distributions Debian
+      sudo apt install ansible
+  ### Vérifier la version d’Ansible
+      ansible --version
+  ### Installer OpneSSH server sur le Controler Node 
+      sudo apt install openssh-server
+  ### Vérifier le status du service SSH
+      sudo service ssh status
+
