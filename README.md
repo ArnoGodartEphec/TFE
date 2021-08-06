@@ -1,4 +1,6 @@
 # Conception, gestion et sécurisation d’une infrastructure virtualisée au moyen d'Ansible
+  ## Commande générale
+      sudo apt upgrade && sudo apt install
   ## Commandes principales liées à l'installation d'Ansible
    ### Installer Python sur le controler node 
       sudo apt install python3-pip
