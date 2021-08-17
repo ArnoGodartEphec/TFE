@@ -23,9 +23,13 @@
   ### Injecter la clé publique sur le serveur distant
       ssh-copy-id [nomdutilisateur]
   ### Utiliser la clé privée pour se connecter sur le serveur distant
-      ssh -i ~/.ssh/id_ecdsa
+      ssh -i ~/.ssh/id_ecdsa [hote@nomdutilisateur]
   ### Utiliser un agent SSH pour "embarquer" la configuration SSH durant la période de session
       eval `ssh-agent`
       ssh-add
-  ###
-  ###
+  ### Vérifier qu'un agent SSH tourne
+      ssh-add -l
+  ### Embarquer la clé dans l'agent SSH
+      ssh-add
+  ## Désormais, se connecter au noeud distant avec l'agent ssh
+      ssh [hote@nomdutilisateur]
