@@ -1,5 +1,5 @@
-all : 
-    children: 
-        gitserver: 
-              hosts:
-                node1:        
+all: 
+ children:
+   hosts:
+       ansible_hosts: 192.168.122.35 
+                       
