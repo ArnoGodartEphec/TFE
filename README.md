@@ -13,7 +13,7 @@
   ### Vérifier la version d’Ansible
       ansible --version
       
- ## Commandes principales liées à SSH      
+ ## Commandes principales liées à SSH    
   ### Installer OpenSSH server 
       sudo apt install openssh-server
   ### Vérifier le status du service SSH
