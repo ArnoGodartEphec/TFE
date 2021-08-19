@@ -1,0 +1,4 @@
+- name: Configuration du Serveur 
+  hosts: node1
+  tasks: 
+   - name : 

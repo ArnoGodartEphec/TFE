@@ -1,0 +1,12 @@
+- name: Playbook Test
+  hosts: all
+  remote_user: oki
+  tasks:
+   - name: Check connexion
+     ping:     
+   - name: Debug
+     debug:
+      msg: "Hello World" 
+
+        
+                

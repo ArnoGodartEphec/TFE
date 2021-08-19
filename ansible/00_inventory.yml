@@ -1,0 +1,5 @@
+all : 
+    children: 
+        gitserver: 
+              hosts:
+                node1:        
